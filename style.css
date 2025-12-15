@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 6vh;
+    color: black;
+}
+
+.container {
+    width: 30%;
+    height: 90%;
+    background-color: brown;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    width: 8vw;
+    height: 8vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+#reset {
+    width: 6.5rem;
+    height: 2.5rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4vw;
+}
+
+.container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    height: 100vh;
+}
+
+.container2 h1 {
+    font-size: 7vw;
+}
+
+.container2 #new {
+    width: 6.5rem;
+    height: 2.5rem;
+    font-weight: bolder;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+        height: 50%;
+    }
+
+    .button {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    h1 {
+        margin: 4.8vh;
+    }
+
+    .game {
+        gap: 0.4vw;
+    }
+
+    .container2 #new {
+        width: 10vw;
+        height: 5vw;
+    }
+}
