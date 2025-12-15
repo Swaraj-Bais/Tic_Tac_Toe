@@ -1,2 +1,22 @@
-# Tic_Tac_Toe
-A simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScript. This interactive game allows two players to take turns and play in the browser. Features include:  Turn-based gameplay for two players  Automatic detection of win, loss, or draw  Reset functionality to start a new game 
+# Tic Tac Toe Game
+
+A simple **web-based Tic Tac Toe** game built with **HTML, CSS, and JavaScript**.  
+Two players can take turns, and the game automatically detects wins, losses, or draws.
+
+## Features
+- Two-player gameplay
+- Win/Loss/Draw detection
+- Reset functionality
+- Responsive design
+
+## How to Play
+1. Open `index.html` in a browser.
+2. Click on empty squares to place **X** or **O**.
+3. The game announces the winner or a draw.
+4. Click **Reset** to start over.
+
+## Technologies
+- HTML, CSS, JavaScript
+
+## Author
+[Swaraj Bais](https://github.com/Swaraj-Bais/)
