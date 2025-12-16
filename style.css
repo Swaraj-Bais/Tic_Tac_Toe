@@ -86,7 +86,7 @@ h1 {
 @media (max-width: 600px) {
     .container {
         width: 80%;
-        height: 50%;
+        height: 60%;
     }
 
     .button {
@@ -106,4 +106,5 @@ h1 {
         width: 10vw;
         height: 5vw;
     }
+
 }
